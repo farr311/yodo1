@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+          package="plugin.library">
+    <application
+        android:networkSecurityConfig="@xml/network_security_config">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7188592076082444~1261271317"/>
+        <meta-data
+            android:name="Yodo1ChannelCode"
+            android:value="GooglePlay"
+            tools:replace="android:value" />
+    </application>
+</manifest>
